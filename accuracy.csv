@@ -1,0 +1,512 @@
+type_features,accuracy
+['CF'],88.51
+['rappA/G'],83.48
+"['rappA/G', 'CF']",92.82
+['der'],92.1
+"['der', 'CF']",95.69
+"['der', 'rappA/G']",93.54
+"['der', 'rappA/G', 'CF']",95.87
+['TF'],83.84
+"['TF', 'CF']",93.18
+"['TF', 'rappA/G']",91.74
+"['TF', 'rappA/G', 'CF']",95.33
+"['TF', 'der']",94.25
+"['TF', 'der', 'CF']",96.23
+"['TF', 'der', 'rappA/G']",94.25
+"['TF', 'der', 'rappA/G', 'CF']",97.13
+['Ampiezza_Media'],95.91
+"['Ampiezza_Media', 'CF']",97.49
+"['Ampiezza_Media', 'rappA/G']",94.79
+"['Ampiezza_Media', 'rappA/G', 'CF']",97.31
+"['Ampiezza_Media', 'der']",96.05
+"['Ampiezza_Media', 'der', 'CF']",97.13
+"['Ampiezza_Media', 'der', 'rappA/G']",95.15
+"['Ampiezza_Media', 'der', 'rappA/G', 'CF']",97.31
+"['Ampiezza_Media', 'TF']",95.33
+"['Ampiezza_Media', 'TF', 'CF']",98.38
+"['Ampiezza_Media', 'TF', 'rappA/G']",95.51
+"['Ampiezza_Media', 'TF', 'rappA/G', 'CF']",98.2
+"['Ampiezza_Media', 'TF', 'der']",95.51
+"['Ampiezza_Media', 'TF', 'der', 'CF']",97.49
+"['Ampiezza_Media', 'TF', 'der', 'rappA/G']",95.87
+"['Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",97.67
+['Minima_Ampiezza'],93.61
+"['Minima_Ampiezza', 'CF']",96.05
+"['Minima_Ampiezza', 'rappA/G']",95.69
+"['Minima_Ampiezza', 'rappA/G', 'CF']",96.41
+"['Minima_Ampiezza', 'der']",96.41
+"['Minima_Ampiezza', 'der', 'CF']",97.31
+"['Minima_Ampiezza', 'der', 'rappA/G']",96.23
+"['Minima_Ampiezza', 'der', 'rappA/G', 'CF']",96.59
+"['Minima_Ampiezza', 'TF']",93.36
+"['Minima_Ampiezza', 'TF', 'CF']",96.95
+"['Minima_Ampiezza', 'TF', 'rappA/G']",95.33
+"['Minima_Ampiezza', 'TF', 'rappA/G', 'CF']",96.95
+"['Minima_Ampiezza', 'TF', 'der']",96.41
+"['Minima_Ampiezza', 'TF', 'der', 'CF']",97.67
+"['Minima_Ampiezza', 'TF', 'der', 'rappA/G']",96.05
+"['Minima_Ampiezza', 'TF', 'der', 'rappA/G', 'CF']",97.85
+"['Minima_Ampiezza', 'Ampiezza_Media']",96.63
+"['Minima_Ampiezza', 'Ampiezza_Media', 'CF']",97.49
+"['Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G']",97.49
+"['Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G', 'CF']",97.31
+"['Minima_Ampiezza', 'Ampiezza_Media', 'der']",96.95
+"['Minima_Ampiezza', 'Ampiezza_Media', 'der', 'CF']",96.95
+"['Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G']",97.49
+"['Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",96.95
+"['Minima_Ampiezza', 'Ampiezza_Media', 'TF']",97.13
+"['Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'CF']",98.03
+"['Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G']",97.49
+"['Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",97.13
+"['Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der']",96.95
+"['Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'CF']",97.31
+"['Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",96.77
+"['Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",96.95
+['Massima_Ampiezza'],92.72
+"['Massima_Ampiezza', 'CF']",95.33
+"['Massima_Ampiezza', 'rappA/G']",95.69
+"['Massima_Ampiezza', 'rappA/G', 'CF']",96.23
+"['Massima_Ampiezza', 'der']",96.05
+"['Massima_Ampiezza', 'der', 'CF']",96.95
+"['Massima_Ampiezza', 'der', 'rappA/G']",96.23
+"['Massima_Ampiezza', 'der', 'rappA/G', 'CF']",97.31
+"['Massima_Ampiezza', 'TF']",95.33
+"['Massima_Ampiezza', 'TF', 'CF']",95.69
+"['Massima_Ampiezza', 'TF', 'rappA/G']",95.69
+"['Massima_Ampiezza', 'TF', 'rappA/G', 'CF']",96.23
+"['Massima_Ampiezza', 'TF', 'der']",96.05
+"['Massima_Ampiezza', 'TF', 'der', 'CF']",97.67
+"['Massima_Ampiezza', 'TF', 'der', 'rappA/G']",96.05
+"['Massima_Ampiezza', 'TF', 'der', 'rappA/G', 'CF']",96.95
+"['Massima_Ampiezza', 'Ampiezza_Media']",98.05
+"['Massima_Ampiezza', 'Ampiezza_Media', 'CF']",97.49
+"['Massima_Ampiezza', 'Ampiezza_Media', 'rappA/G']",96.77
+"['Massima_Ampiezza', 'Ampiezza_Media', 'rappA/G', 'CF']",97.67
+"['Massima_Ampiezza', 'Ampiezza_Media', 'der']",97.49
+"['Massima_Ampiezza', 'Ampiezza_Media', 'der', 'CF']",97.13
+"['Massima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G']",96.95
+"['Massima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",97.49
+"['Massima_Ampiezza', 'Ampiezza_Media', 'TF']",96.59
+"['Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'CF']",97.49
+"['Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G']",96.95
+"['Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",97.49
+"['Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der']",97.31
+"['Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'CF']",97.49
+"['Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",97.49
+"['Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",97.67
+"['Massima_Ampiezza', 'Minima_Ampiezza']",96.09
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'CF']",96.05
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'rappA/G']",95.87
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'rappA/G', 'CF']",96.59
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'der']",98.2
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'der', 'CF']",98.03
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'der', 'rappA/G']",97.67
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'der', 'rappA/G', 'CF']",98.03
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'TF']",95.87
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'CF']",96.05
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'rappA/G']",96.95
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'rappA/G', 'CF']",96.95
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der']",96.95
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der', 'CF']",97.85
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der', 'rappA/G']",97.67
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der', 'rappA/G', 'CF']",97.67
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media']",97.69
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'CF']",97.85
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G']",97.49
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G', 'CF']",97.67
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der']",97.31
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'CF']",97.31
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G']",97.49
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",97.67
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF']",98.56
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'CF']",97.49
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G']",98.03
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",98.03
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der']",98.03
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'CF']",97.67
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",98.03
+"['Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",97.85
+['Deviazione_Standard'],93.43
+"['Deviazione_Standard', 'CF']",96.41
+"['Deviazione_Standard', 'rappA/G']",97.85
+"['Deviazione_Standard', 'rappA/G', 'CF']",96.59
+"['Deviazione_Standard', 'der']",97.49
+"['Deviazione_Standard', 'der', 'CF']",98.2
+"['Deviazione_Standard', 'der', 'rappA/G']",98.2
+"['Deviazione_Standard', 'der', 'rappA/G', 'CF']",98.38
+"['Deviazione_Standard', 'TF']",95.33
+"['Deviazione_Standard', 'TF', 'CF']",96.95
+"['Deviazione_Standard', 'TF', 'rappA/G']",97.85
+"['Deviazione_Standard', 'TF', 'rappA/G', 'CF']",97.85
+"['Deviazione_Standard', 'TF', 'der']",98.03
+"['Deviazione_Standard', 'TF', 'der', 'CF']",98.03
+"['Deviazione_Standard', 'TF', 'der', 'rappA/G']",98.03
+"['Deviazione_Standard', 'TF', 'der', 'rappA/G', 'CF']",98.56
+"['Deviazione_Standard', 'Ampiezza_Media']",97.69
+"['Deviazione_Standard', 'Ampiezza_Media', 'CF']",98.38
+"['Deviazione_Standard', 'Ampiezza_Media', 'rappA/G']",97.85
+"['Deviazione_Standard', 'Ampiezza_Media', 'rappA/G', 'CF']",98.2
+"['Deviazione_Standard', 'Ampiezza_Media', 'der']",97.85
+"['Deviazione_Standard', 'Ampiezza_Media', 'der', 'CF']",98.03
+"['Deviazione_Standard', 'Ampiezza_Media', 'der', 'rappA/G']",98.2
+"['Deviazione_Standard', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",98.03
+"['Deviazione_Standard', 'Ampiezza_Media', 'TF']",98.56
+"['Deviazione_Standard', 'Ampiezza_Media', 'TF', 'CF']",98.74
+"['Deviazione_Standard', 'Ampiezza_Media', 'TF', 'rappA/G']",98.74
+"['Deviazione_Standard', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",98.38
+"['Deviazione_Standard', 'Ampiezza_Media', 'TF', 'der']",97.67
+"['Deviazione_Standard', 'Ampiezza_Media', 'TF', 'der', 'CF']",97.85
+"['Deviazione_Standard', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",97.85
+"['Deviazione_Standard', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",98.2
+"['Deviazione_Standard', 'Minima_Ampiezza']",96.8
+"['Deviazione_Standard', 'Minima_Ampiezza', 'CF']",96.59
+"['Deviazione_Standard', 'Minima_Ampiezza', 'rappA/G']",98.38
+"['Deviazione_Standard', 'Minima_Ampiezza', 'rappA/G', 'CF']",97.85
+"['Deviazione_Standard', 'Minima_Ampiezza', 'der']",98.38
+"['Deviazione_Standard', 'Minima_Ampiezza', 'der', 'CF']",98.74
+"['Deviazione_Standard', 'Minima_Ampiezza', 'der', 'rappA/G']",98.38
+"['Deviazione_Standard', 'Minima_Ampiezza', 'der', 'rappA/G', 'CF']",98.56
+"['Deviazione_Standard', 'Minima_Ampiezza', 'TF']",96.95
+"['Deviazione_Standard', 'Minima_Ampiezza', 'TF', 'CF']",97.85
+"['Deviazione_Standard', 'Minima_Ampiezza', 'TF', 'rappA/G']",98.2
+"['Deviazione_Standard', 'Minima_Ampiezza', 'TF', 'rappA/G', 'CF']",97.85
+"['Deviazione_Standard', 'Minima_Ampiezza', 'TF', 'der']",98.56
+"['Deviazione_Standard', 'Minima_Ampiezza', 'TF', 'der', 'CF']",98.38
+"['Deviazione_Standard', 'Minima_Ampiezza', 'TF', 'der', 'rappA/G']",98.2
+"['Deviazione_Standard', 'Minima_Ampiezza', 'TF', 'der', 'rappA/G', 'CF']",98.38
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media']",98.22
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'CF']",98.2
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G']",98.38
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G', 'CF']",98.2
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'der']",97.85
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'CF']",98.2
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G']",98.03
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",98.03
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF']",98.2
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'CF']",98.38
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G']",98.56
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",98.38
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der']",98.2
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'CF']",98.2
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",98.2
+"['Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",98.74
+"['Deviazione_Standard', 'Massima_Ampiezza']",96.45
+"['Deviazione_Standard', 'Massima_Ampiezza', 'CF']",97.31
+"['Deviazione_Standard', 'Massima_Ampiezza', 'rappA/G']",98.38
+"['Deviazione_Standard', 'Massima_Ampiezza', 'rappA/G', 'CF']",98.03
+"['Deviazione_Standard', 'Massima_Ampiezza', 'der']",98.74
+"['Deviazione_Standard', 'Massima_Ampiezza', 'der', 'CF']",98.38
+"['Deviazione_Standard', 'Massima_Ampiezza', 'der', 'rappA/G']",98.38
+"['Deviazione_Standard', 'Massima_Ampiezza', 'der', 'rappA/G', 'CF']",98.92
+"['Deviazione_Standard', 'Massima_Ampiezza', 'TF']",98.03
+"['Deviazione_Standard', 'Massima_Ampiezza', 'TF', 'CF']",97.67
+"['Deviazione_Standard', 'Massima_Ampiezza', 'TF', 'rappA/G']",98.03
+"['Deviazione_Standard', 'Massima_Ampiezza', 'TF', 'rappA/G', 'CF']",98.03
+"['Deviazione_Standard', 'Massima_Ampiezza', 'TF', 'der']",97.67
+"['Deviazione_Standard', 'Massima_Ampiezza', 'TF', 'der', 'CF']",98.03
+"['Deviazione_Standard', 'Massima_Ampiezza', 'TF', 'der', 'rappA/G']",98.03
+"['Deviazione_Standard', 'Massima_Ampiezza', 'TF', 'der', 'rappA/G', 'CF']",98.92
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media']",97.69
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'CF']",98.2
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'rappA/G']",98.56
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'rappA/G', 'CF']",98.74
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'der']",98.03
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'der', 'CF']",97.85
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G']",98.38
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",98.2
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF']",98.2
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'CF']",98.38
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G']",98.38
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",98.38
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der']",98.03
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'CF']",98.74
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",97.85
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",98.38
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza']",97.51
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'CF']",97.31
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'rappA/G']",97.67
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'rappA/G', 'CF']",97.85
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'der']",98.56
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'der', 'CF']",98.2
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'der', 'rappA/G']",98.92
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'der', 'rappA/G', 'CF']",98.2
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF']",97.49
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'CF']",97.31
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'rappA/G']",98.74
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'rappA/G', 'CF']",98.03
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der']",98.56
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der', 'CF']",98.74
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der', 'rappA/G']",98.56
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der', 'rappA/G', 'CF']",98.56
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media']",98.58
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'CF']",98.56
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G']",98.92
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G', 'CF']",98.03
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der']",98.03
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'CF']",98.03
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G']",97.67
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",98.74
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF']",98.38
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'CF']",98.74
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G']",99.1
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",98.92
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der']",98.74
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'CF']",98.2
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",98.38
+"['Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",98.2
+['Varianza'],93.43
+"['Varianza', 'CF']",96.23
+"['Varianza', 'rappA/G']",97.85
+"['Varianza', 'rappA/G', 'CF']",96.59
+"['Varianza', 'der']",97.49
+"['Varianza', 'der', 'CF']",98.2
+"['Varianza', 'der', 'rappA/G']",98.2
+"['Varianza', 'der', 'rappA/G', 'CF']",98.38
+"['Varianza', 'TF']",95.33
+"['Varianza', 'TF', 'CF']",96.95
+"['Varianza', 'TF', 'rappA/G']",98.03
+"['Varianza', 'TF', 'rappA/G', 'CF']",97.85
+"['Varianza', 'TF', 'der']",97.85
+"['Varianza', 'TF', 'der', 'CF']",98.03
+"['Varianza', 'TF', 'der', 'rappA/G']",98.03
+"['Varianza', 'TF', 'der', 'rappA/G', 'CF']",98.56
+"['Varianza', 'Ampiezza_Media']",97.69
+"['Varianza', 'Ampiezza_Media', 'CF']",98.38
+"['Varianza', 'Ampiezza_Media', 'rappA/G']",97.85
+"['Varianza', 'Ampiezza_Media', 'rappA/G', 'CF']",98.38
+"['Varianza', 'Ampiezza_Media', 'der']",97.85
+"['Varianza', 'Ampiezza_Media', 'der', 'CF']",98.03
+"['Varianza', 'Ampiezza_Media', 'der', 'rappA/G']",98.2
+"['Varianza', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",98.03
+"['Varianza', 'Ampiezza_Media', 'TF']",98.56
+"['Varianza', 'Ampiezza_Media', 'TF', 'CF']",98.74
+"['Varianza', 'Ampiezza_Media', 'TF', 'rappA/G']",98.74
+"['Varianza', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",98.38
+"['Varianza', 'Ampiezza_Media', 'TF', 'der']",97.67
+"['Varianza', 'Ampiezza_Media', 'TF', 'der', 'CF']",97.85
+"['Varianza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",97.85
+"['Varianza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",98.2
+"['Varianza', 'Minima_Ampiezza']",96.8
+"['Varianza', 'Minima_Ampiezza', 'CF']",96.59
+"['Varianza', 'Minima_Ampiezza', 'rappA/G']",98.38
+"['Varianza', 'Minima_Ampiezza', 'rappA/G', 'CF']",97.85
+"['Varianza', 'Minima_Ampiezza', 'der']",98.38
+"['Varianza', 'Minima_Ampiezza', 'der', 'CF']",98.74
+"['Varianza', 'Minima_Ampiezza', 'der', 'rappA/G']",98.38
+"['Varianza', 'Minima_Ampiezza', 'der', 'rappA/G', 'CF']",98.56
+"['Varianza', 'Minima_Ampiezza', 'TF']",96.95
+"['Varianza', 'Minima_Ampiezza', 'TF', 'CF']",97.67
+"['Varianza', 'Minima_Ampiezza', 'TF', 'rappA/G']",98.2
+"['Varianza', 'Minima_Ampiezza', 'TF', 'rappA/G', 'CF']",97.85
+"['Varianza', 'Minima_Ampiezza', 'TF', 'der']",98.56
+"['Varianza', 'Minima_Ampiezza', 'TF', 'der', 'CF']",98.38
+"['Varianza', 'Minima_Ampiezza', 'TF', 'der', 'rappA/G']",98.2
+"['Varianza', 'Minima_Ampiezza', 'TF', 'der', 'rappA/G', 'CF']",98.38
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media']",98.22
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'CF']",98.2
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G']",98.38
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G', 'CF']",98.2
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der']",97.85
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'CF']",98.2
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G']",98.03
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",98.03
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF']",98.2
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'CF']",98.38
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G']",98.56
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",98.38
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der']",98.2
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'CF']",98.38
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",98.2
+"['Varianza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",98.74
+"['Varianza', 'Massima_Ampiezza']",96.63
+"['Varianza', 'Massima_Ampiezza', 'CF']",97.31
+"['Varianza', 'Massima_Ampiezza', 'rappA/G']",98.38
+"['Varianza', 'Massima_Ampiezza', 'rappA/G', 'CF']",97.85
+"['Varianza', 'Massima_Ampiezza', 'der']",98.74
+"['Varianza', 'Massima_Ampiezza', 'der', 'CF']",98.38
+"['Varianza', 'Massima_Ampiezza', 'der', 'rappA/G']",98.38
+"['Varianza', 'Massima_Ampiezza', 'der', 'rappA/G', 'CF']",98.92
+"['Varianza', 'Massima_Ampiezza', 'TF']",98.03
+"['Varianza', 'Massima_Ampiezza', 'TF', 'CF']",97.67
+"['Varianza', 'Massima_Ampiezza', 'TF', 'rappA/G']",98.03
+"['Varianza', 'Massima_Ampiezza', 'TF', 'rappA/G', 'CF']",98.03
+"['Varianza', 'Massima_Ampiezza', 'TF', 'der']",97.67
+"['Varianza', 'Massima_Ampiezza', 'TF', 'der', 'CF']",98.03
+"['Varianza', 'Massima_Ampiezza', 'TF', 'der', 'rappA/G']",98.03
+"['Varianza', 'Massima_Ampiezza', 'TF', 'der', 'rappA/G', 'CF']",98.74
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media']",97.69
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'CF']",98.38
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'rappA/G']",98.38
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'rappA/G', 'CF']",98.56
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'der']",98.03
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'der', 'CF']",97.85
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G']",98.38
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",98.2
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF']",98.2
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'CF']",98.38
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G']",98.38
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",98.38
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der']",98.03
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'CF']",98.56
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",97.85
+"['Varianza', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",98.56
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza']",97.51
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'CF']",97.31
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'rappA/G']",97.49
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'rappA/G', 'CF']",98.03
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'der']",98.56
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'der', 'CF']",98.2
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'der', 'rappA/G']",98.92
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'der', 'rappA/G', 'CF']",98.2
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF']",97.49
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'CF']",97.31
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'rappA/G']",98.74
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'rappA/G', 'CF']",98.2
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der']",98.74
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der', 'CF']",98.74
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der', 'rappA/G']",98.74
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der', 'rappA/G', 'CF']",98.56
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media']",98.58
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'CF']",98.56
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G']",98.92
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G', 'CF']",98.03
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der']",98.03
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'CF']",98.03
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G']",97.67
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",98.74
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF']",98.38
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'CF']",98.74
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G']",99.1
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",98.74
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der']",98.74
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'CF']",98.2
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",98.38
+"['Varianza', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",98.2
+"['Varianza', 'Deviazione_Standard']",93.25
+"['Varianza', 'Deviazione_Standard', 'CF']",96.77
+"['Varianza', 'Deviazione_Standard', 'rappA/G']",96.77
+"['Varianza', 'Deviazione_Standard', 'rappA/G', 'CF']",96.95
+"['Varianza', 'Deviazione_Standard', 'der']",98.38
+"['Varianza', 'Deviazione_Standard', 'der', 'CF']",98.2
+"['Varianza', 'Deviazione_Standard', 'der', 'rappA/G']",98.2
+"['Varianza', 'Deviazione_Standard', 'der', 'rappA/G', 'CF']",98.74
+"['Varianza', 'Deviazione_Standard', 'TF']",94.79
+"['Varianza', 'Deviazione_Standard', 'TF', 'CF']",96.59
+"['Varianza', 'Deviazione_Standard', 'TF', 'rappA/G']",97.31
+"['Varianza', 'Deviazione_Standard', 'TF', 'rappA/G', 'CF']",97.67
+"['Varianza', 'Deviazione_Standard', 'TF', 'der']",98.38
+"['Varianza', 'Deviazione_Standard', 'TF', 'der', 'CF']",98.74
+"['Varianza', 'Deviazione_Standard', 'TF', 'der', 'rappA/G']",98.2
+"['Varianza', 'Deviazione_Standard', 'TF', 'der', 'rappA/G', 'CF']",98.56
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media']",97.87
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'rappA/G']",98.03
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'rappA/G', 'CF']",98.74
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'der']",98.03
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'der', 'CF']",98.56
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'der', 'rappA/G']",98.03
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",98.2
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'TF']",98.2
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'TF', 'CF']",98.74
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'TF', 'rappA/G']",98.38
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",98.74
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'TF', 'der']",98.03
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'TF', 'der', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",97.49
+"['Varianza', 'Deviazione_Standard', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",98.56
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza']",96.27
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'CF']",96.95
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'rappA/G']",97.13
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'rappA/G', 'CF']",97.31
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'der']",98.38
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'der', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'der', 'rappA/G']",98.56
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'der', 'rappA/G', 'CF']",98.74
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'TF']",97.31
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'TF', 'CF']",96.95
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'TF', 'rappA/G']",97.67
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'TF', 'rappA/G', 'CF']",97.31
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'TF', 'der']",98.92
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'TF', 'der', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'TF', 'der', 'rappA/G']",98.38
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'TF', 'der', 'rappA/G', 'CF']",98.56
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media']",98.05
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'CF']",98.03
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G']",98.2
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G', 'CF']",98.74
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'der']",97.85
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G']",98.03
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",98.2
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF']",98.2
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'CF']",98.2
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G']",98.38
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der']",98.38
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'CF']",98.2
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",98.2
+"['Varianza', 'Deviazione_Standard', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",98.56
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza']",96.63
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'CF']",96.95
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'rappA/G']",97.13
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'rappA/G', 'CF']",97.85
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'der']",98.38
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'der', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'der', 'rappA/G']",98.38
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'der', 'rappA/G', 'CF']",98.74
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'TF']",97.31
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'TF', 'CF']",98.03
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'TF', 'rappA/G']",97.85
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'TF', 'rappA/G', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'TF', 'der']",98.56
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'TF', 'der', 'CF']",98.92
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'TF', 'der', 'rappA/G']",98.56
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'TF', 'der', 'rappA/G', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media']",98.4
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'rappA/G']",98.38
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'rappA/G', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'der']",97.67
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'der', 'CF']",97.85
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G']",97.85
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",98.2
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF']",98.03
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G']",98.74
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",98.2
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der']",98.56
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'CF']",98.03
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",98.56
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",98.56
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza']",97.51
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'CF']",97.31
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'rappA/G']",97.13
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'rappA/G', 'CF']",97.49
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'der']",98.03
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'der', 'CF']",98.56
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'der', 'rappA/G']",98.38
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'der', 'rappA/G', 'CF']",98.56
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF']",97.31
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'CF']",97.67
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'rappA/G']",97.85
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'rappA/G', 'CF']",97.67
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der']",98.74
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der', 'CF']",98.74
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der', 'rappA/G']",98.92
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'TF', 'der', 'rappA/G', 'CF']",98.74
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media']",98.58
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G']",98.56
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'rappA/G', 'CF']",98.2
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der']",98.03
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G']",98.2
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'der', 'rappA/G', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF']",99.1
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'CF']",99.1
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G']",98.92
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'rappA/G', 'CF']",98.38
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der']",97.85
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'CF']",98.74
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G']",98.56
+"['Varianza', 'Deviazione_Standard', 'Massima_Ampiezza', 'Minima_Ampiezza', 'Ampiezza_Media', 'TF', 'der', 'rappA/G', 'CF']",98.56

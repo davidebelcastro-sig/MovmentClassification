@@ -1,0 +1,2 @@
+Accuracy, Sensitivity, Specificity, Precision, F1 Score,%Caduta Rilevata per Errore, %Caduta Non Rilevata,Totale cadute nel Test, Totale camminate nel Test
+99.19, 0.97, 1.00, 1.00, 0.99, 0.00, 2.86, 35, 88
