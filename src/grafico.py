@@ -8,17 +8,20 @@ def plot_accuracy(attivita, correct_counts, incorrect_counts, incorrect_labels, 
     # Plot dell'accuratezza complessiva del modello
     plt.figure(figsize=(10, 5))
     plt.subplot(1, 2, 1)
-    plt.bar(['Accuratezza'], [accuracy], color='blue')
-    plt.title('Accuratezza complessiva del modello')
+    plt.bar(['Accuracy'], [accuracy], color='blue')
+    plt.title('Total accuracy')
 
     # Plot dei casi corretti e sbagliati per ogni label
     plt.subplot(1, 2, 2)
     bar_width = 0.35
-    plt.bar(labels, correct_counts, bar_width, label='Corretti', color='green')
-    plt.bar(labels + bar_width, [sum(sublist) for sublist in incorrect_counts], bar_width, label='Sbagliati', color='red')
-    plt.xlabel('Attività (Errore Totale)')
-    plt.ylabel('Numero di casi')
-    plt.title('Casi corretti e sbagliati per ogni attività')
+    plt.bar(labels, correct_counts, bar_width, label='Correct', color='green')
+    plt.bar(labels + bar_width, [sum(sublist) for sublist in incorrect_counts], bar_width, label='Incorrect', color='red')
+    plt.xlabel('Activity')
+    plt.ylabel('Cases number')
+    plt.title('Correct and incorrect cases for each activity')
+    # Traduzione delle attività in inglese
+
+
     plt.xticks(labels + bar_width / 2, attivita, rotation=45)
     
     # Aggiungi etichette sbagliate

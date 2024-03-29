@@ -132,7 +132,7 @@ if __name__ == "__main__":
         grafico.run(correct_counts, incorrect_counts, incorrect_labels, acc)
         with open('output/size_testing.csv', 'w') as file:
             writer = csv.writer(file)
-            writer.writerow(["Attività", "Training set", "Testing set"])
+            writer.writerow(["Activity", "Training set", "Testing set"])
             for i in range(lungh):
                 writer.writerow([attivita[i], lista_label[i][0], lista_label[i][1]])
         os.system("cp best_solution.csv output/features_used.csv")
