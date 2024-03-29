@@ -1,5 +1,6 @@
 import turtle
-
+import time
+import os
 
 def conta_volte(i, lista, el):
     cont = 0
@@ -22,7 +23,10 @@ def disegna_giro_sx(t, angolo=90):
 
 t = turtle.Turtle()
 t.speed(1)
-
+#create dir camminata odierna
+now = time.strftime("%d-%m-%Y-%H-%M-%S")
+if not os.path.exists("attivita/"+ now):
+    os.makedirs("attivita/"+ now)
 fl = open("attivita/attivita.txt","r")
 lista = fl.readlines()
 fl.close()
@@ -43,7 +47,7 @@ while k < lunghezza_lista:
             if lista[k] == "camminata":
                 disegna_camminata(t,cont)
             else:
-                t.screen.getcanvas().postscript(file="attivita/disegno"+str(piano)+".eps")
+                t.screen.getcanvas().postscript(file="attivita/"+now+"/disegno"+str(piano)+".eps")
                 if lista[k] == "salire":
                     piano += 1
                 else:
@@ -52,8 +56,7 @@ while k < lunghezza_lista:
         k += cont
 
 
-#t.screen.getcanvas().postscript(file="disegno"+str(piano)+".eps")
-
+t.screen.getcanvas().postscript(file="attivita/"+now+"/disegno"+str(piano)+".eps")
 
 
 
